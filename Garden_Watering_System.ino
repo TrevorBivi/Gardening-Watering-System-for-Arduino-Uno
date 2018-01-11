@@ -1,7 +1,7 @@
 /*
 TO DO:
-The system currently runs much faster than it will in the final version. This needs to be changed
-
+-The system currently runs much faster than it will in the final version. This needs to be changed
+-Make a javascript web browser extention to better format the site
 */
 
 
