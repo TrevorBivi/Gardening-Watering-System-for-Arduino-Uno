@@ -1,3 +1,10 @@
+/*
+TO DO:
+The system currently runs much faster than it will in the final version. This needs to be changed
+
+*/
+
+
 #include <EtherCard.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -431,7 +438,7 @@ void updateWeather(){
   ether.persistTcpConnection(true);
   weatherPeriod = -1;
   owmBuffer = ownBufferWipe;
-  ether.browseUrl(PSTR("/data/2.5/"), "forecast?id=6156855&appid=240bcce906cdefd5f87cc1f1092512c2", owmUrl, owmCallback);
+  ether.browseUrl(PSTR("/data/2.5/"), "forecast?id=6156855&appid=[make account and insert your appid here!!!]", owmUrl, owmCallback);
 }
 
 /** periodically try updating weather data until sucessfull
