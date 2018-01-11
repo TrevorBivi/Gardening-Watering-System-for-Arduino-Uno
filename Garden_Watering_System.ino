@@ -501,7 +501,7 @@ int restrict(int val, int minVal, int maxVal){
 */
 void setRefillValve(boolean setOpen) {
   Serial.println(F("setRefillValve"));
- /* digitalWrite(switchPowPin, HIGH); //enable switch power
+  digitalWrite(switchPowPin, HIGH); //enable switch power
 
   //getStartState
   boolean lastVal = (digitalRead(switchPin) == HIGH);
@@ -520,7 +520,7 @@ void setRefillValve(boolean setOpen) {
      Serial.println(F("done turning"));
     digitalWrite(motorPin,LOW);
   }
-  digitalWrite(switchPowPin, LOW);*/
+  digitalWrite(switchPowPin, LOW);
 }
 
 /** turns the refill valve to the off position
